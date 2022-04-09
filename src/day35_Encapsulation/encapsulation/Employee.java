@@ -9,7 +9,7 @@ public class Employee {
 
 
 
-    // assagida constructor actik ama this.  le degil set li cünkü data yi kontrol etmek istiyoruz
+    // assagida constructor actik ama 'this.'  le degil 'set' li cünkü data yi kontrol etmek istiyoruz
     public Employee(String name, char gender, int age, double salary) {
        setName(name);
        setGender(gender);

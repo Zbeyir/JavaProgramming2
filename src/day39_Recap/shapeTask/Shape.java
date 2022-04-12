@@ -34,9 +34,21 @@ public class Shape {
         return 0;
     }
 
+/*
+  @Override
+    public String toString() {  // parantez in icine int a yazdigimzda overloading yapiyoz Override degil
+        return super.toString();
+    }
+ */
 
-
-
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 
 
 }

@@ -15,6 +15,11 @@ public class BMW extends Car{
         System.out.println(brand + " " + model + " is a racing car");
     }
 
+    @Override
+    public void start() {
+        System.out.println("Call mechanic Jump start " + brand + " " + model);
+    }
+
 }
 /*
 2. BMW:

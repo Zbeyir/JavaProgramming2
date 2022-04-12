@@ -1,6 +1,6 @@
 package day38_Inheritance.carTask;
 
-public class Parking {
+public class ParkingLot {
 
     public static void main(String[] args) {
 
@@ -10,6 +10,10 @@ public class Parking {
 
         BMW bmw = new BMW("X5","black",2022,45000,10000);
 
+
+        toyota.start();
+        tesla.start();
+        bmw.start();
 
 
 

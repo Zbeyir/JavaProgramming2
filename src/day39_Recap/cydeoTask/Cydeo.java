@@ -44,6 +44,8 @@ public class Cydeo {
         tester.drink();
         tester.sleep();
 
+        // tester.fixingBugs();  // fixingBugs is unic method for developer
+
         tester.createTicket();
 
         System.out.println("----------------------------------------------------------");

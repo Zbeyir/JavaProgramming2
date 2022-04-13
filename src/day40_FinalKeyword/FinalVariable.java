@@ -15,12 +15,14 @@ public class FinalVariable {
         this.birthDay = birthDay;
     }
 
-    public static void main(String[] args) {
+    public final static void main(String[] args) {   // main method u final yapabiliriz ama bu clas i Inheritance yapamayiz sonra
 
         double pi = 3.14;
 
         pi = 4.14;
         pi = 5.4;
+
+
 
         final double pi2 = 3.14;
 

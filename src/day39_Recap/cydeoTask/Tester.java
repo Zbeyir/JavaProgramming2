@@ -8,7 +8,7 @@ public class Tester extends Employee {
     }
 
     public void createTicket(){
-        System.out.println(getJobTitle() + " " + getName() + "is creating ticket");
+        System.out.println(getJobTitle() + " " + getName() + " is creating ticket");
     }
 
     @Override

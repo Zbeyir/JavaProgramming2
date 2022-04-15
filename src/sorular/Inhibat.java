@@ -1,38 +1,34 @@
 package sorular;
 
-public class Inhabitants {
+import java.util.ArrayList;
+import java.util.Arrays;
 
+public class Inhibat {
     public static void main(String[] args) {
 
-        int[] inhabitants = {3, 6, 0, 4, 3, 2, 7, 1};
+        ArrayList<Integer> num = new ArrayList<>();
+
+        num.addAll(Arrays.asList(3, 6, 0, 4, 3, 2, 7, 1));
 
         int day = 0;
+        int i = 0;
+        while (num.get(i)>0){
 
-        for (int inhabitant : inhabitants) {
-            if (inhabitant > 0) {
-                System.out.println("Day " + day + " [" + inhabitant + "]");
-                day++;
-                inhabitant /= 2;
-            }
-
-
-        }
-
-
-       /*
-        while(inhabitants>0)
-        {
-            System.out.println("Day " + day + " ["+inhabitants+"]");
+            System.out.println("Day" + day + num);
             day++;
-            inhabitants/=2;
+            num.set(i, num.get(i)/2);
+
+
+
         }
-        System.out.println("---- EXTINCT ----");
-        */
+
 
 
     }
 
+
 }
+
 
 /*
 An array inhabitants represents cities and their respective populations. For example, the following arrays shows 8 cities and their respective populations:
@@ -62,4 +58,25 @@ System.out.println(Arrays.toString(inhabitants)));
 bunun çözümünü biliyormusunuz. internetten bir tane buldum ama çok uzun
 
 
+ */
+
+/*
+ /* while(inhabitants>0)
+
+
+        {
+            System.out.println("Day " + day + " ["+inhabitants+"]");
+            day++;
+            inhabitants/=2;
+        }
+        System.out.println("---- EXTINCT ----");
+ */
+
+/*
+ for (int inhabitant : inhabitants) {
+         //   if (inhabitant > 0) {
+           //     System.out.println("Day " + day + " [" + inhabitant + "]");
+             //   day++;
+               // inhabitant /= 2;
+          //  }
  */

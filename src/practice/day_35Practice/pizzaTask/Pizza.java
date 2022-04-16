@@ -1,4 +1,4 @@
-package day_35Practice.pizzaTask;
+package practice.day_35Practice.pizzaTask;
 
 public class Pizza {
 

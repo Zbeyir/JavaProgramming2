@@ -1,4 +1,4 @@
-package day_35Practice.carpetTask;
+package practice.day_35Practice.carpetTask;
 
 public class Test {
 

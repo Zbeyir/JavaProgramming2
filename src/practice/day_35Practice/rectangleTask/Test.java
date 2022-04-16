@@ -1,4 +1,4 @@
-package day_35Practice.rectangleTask;
+package practice.day_35Practice.rectangleTask;
 
 public class Test {
 

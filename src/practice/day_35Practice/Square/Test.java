@@ -1,4 +1,4 @@
-package day_35Practice.Square;
+package practice.day_35Practice.Square;
 
 public class Test {
 

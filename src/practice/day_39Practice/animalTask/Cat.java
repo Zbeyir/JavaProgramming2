@@ -14,6 +14,11 @@ public class Cat extends FriendlyAnimal {
         System.out.println(getName() + " " + getBreed() + " is meowing");
     }
 
+    @Override
+    public void eat() {
+        System.out.println(getName() + " " + getBreed() + " is eating cat food");
+    }
+
 
 }
 /*

@@ -14,6 +14,12 @@ public class Parrot extends FriendlyAnimal {
         System.out.println(getName() + " " + getBreed() + " is singing");
     }
 
+    @Override
+    public void eat() {
+        System.out.println(getName() + " " + getBreed() + " is eating parrot food");
+    }
+
+
 }
 /*
 4. Create the following sub classes of FriendlyAnimal and Override the eat method

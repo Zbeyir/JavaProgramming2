@@ -11,6 +11,11 @@ public class Dolphin extends FriendlyAnimal {
         System.out.println(getName() + " " + getBreed() + " is swimming");
     }
 
+    @Override
+    public void eat() {
+        System.out.println(getName() + " " + getBreed() + " is eating fish");
+    }
+
 
 }
 /*

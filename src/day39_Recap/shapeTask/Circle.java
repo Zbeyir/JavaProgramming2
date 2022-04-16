@@ -1,6 +1,6 @@
 package day39_Recap.shapeTask;
 
-public class Circle extends Shape{ // extends i en son yaziyoruz isimiz kolaylasiyor cünkü Construvtur da isimiz kolay
+public class Circle extends Shape{ // extends i en son yaziyoruz isimiz kolaylasiyor cünkü Construvtur da isimiz kolaylastiriyor
 
     private double radius;
     static double pi = 3.14;

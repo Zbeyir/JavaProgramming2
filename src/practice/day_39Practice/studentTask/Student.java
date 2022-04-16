@@ -50,7 +50,8 @@ public class Student extends Person {
         this.grade = grade;
     }
 
-    public Student(String name, int age, char gender, String studentId, String fieldOfStudy, String schoolName, char grade) {
+    public Student(String name, int age, char gender, String studentId, String fieldOfStudy,
+                   String schoolName, char grade) {
         super(name, age, gender);
 
         setStudentId(studentId);

@@ -9,6 +9,11 @@ public class StudentObjects {
 
         System.out.println(cydeoStudent.getGender());
 
+        Student student = new Student("_HJ:",-12,'M',"123","Java",
+                "Cydeo",'A');
+
+        System.out.println(student);
+
 
 
     }

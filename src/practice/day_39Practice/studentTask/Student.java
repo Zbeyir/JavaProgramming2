@@ -59,6 +59,10 @@ public class Student extends Person {
         setSchoolName(schoolName);
     }
 
+    public void study(){
+        System.out.println(getName() + " is studying" );
+    }
+
     @Override
     public String toString() {
         return "Student{" +

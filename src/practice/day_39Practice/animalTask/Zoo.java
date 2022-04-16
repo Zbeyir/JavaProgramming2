@@ -16,6 +16,12 @@ public class Zoo {
         Python python = new Python("Piton","Indian","XXLarge","Yellow",4,'M',true,true,true);
         Crocodile crocodile = new Crocodile("Timsah","Australian","Small","Green",9,'F',true,false,true);
 
+        dog.bark();
+        dog.eat();
+        dog.drink();
+        dog.move();
+        System.out.println(dog);
+
     }
 }
 

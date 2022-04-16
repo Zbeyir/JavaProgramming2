@@ -36,7 +36,7 @@ public class WildAnimal extends Animal {
     }
 
     public void hunt(){
-        System.out.println(name + " " + breed + " is hunt");
+        System.out.println(getName() + " " + getBreed() + " is hunting");
     }
 
     @Override

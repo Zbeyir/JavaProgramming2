@@ -4,9 +4,10 @@ public class StudentObjects {
 
     public static void main(String[] args) {
 
-        CydeoStudent cydeoStudent = new CydeoStudent("_nmn",12,'ö',"123","dfgh",
+        CydeoStudent cydeoStudent = new CydeoStudent("_nmn",-12,'ö',"123","dfgh",
                 "Cydeo",'A',"Java",12345,17);
 
+        System.out.println(cydeoStudent);
         System.out.println(cydeoStudent.getGender());
 
         Student student = new Student("_HJ:",-12,'M',"123","Java",

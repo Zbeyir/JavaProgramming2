@@ -25,7 +25,7 @@ public class Person {
     public void setAge(int age){
         if (age <= 0 || age >= 150){
             System.err.println("Invalid Age: " + age);
-            System.exit(0); // ===> veya buraya return yazip da cikabilirdik
+            System.exit(1); // ===> veya buraya return yazip da cikabilirdik
         }
 
 

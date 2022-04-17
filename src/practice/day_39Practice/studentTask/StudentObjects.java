@@ -4,7 +4,7 @@ public class StudentObjects {
 
     public static void main(String[] args) {
 
-        CydeoStudent cydeoStudent = new CydeoStudent("_ #+nmn",12,'M',"123","dfgh",
+        CydeoStudent cydeoStudent = new CydeoStudent("*ahmet",12,'M',"123","dfgh",
                 "Cydeo",'A',"Java",12345,17);
 
         System.out.println(cydeoStudent.getName());

@@ -14,7 +14,7 @@ public class Person {
         if ( name == null || name.isEmpty() || name.isBlank() ) {
             System.err.println("Invalid name " + name);
             System.exit(1);
-
+        }
             char[] chars = name.toCharArray();
             for (char each : chars) {
                 if ( !( Character.isLetterOrDigit(each) ) ){
@@ -22,10 +22,10 @@ public class Person {
                     System.exit(1);
                 }
             }
-
-        }
         this.name = name;
-    }
+        }
+
+
 
     public int getAge() {
         return age;

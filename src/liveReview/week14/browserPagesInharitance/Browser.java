@@ -2,7 +2,7 @@ package liveReview.week14.browserPagesInharitance;
 
 public class Browser {
 
-    private String browserType;
+    private static String browserType;
 
     private static String operatingSystem; // windows, androids, IOS, ...
 

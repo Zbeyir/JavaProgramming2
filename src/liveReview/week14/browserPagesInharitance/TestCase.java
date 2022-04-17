@@ -42,6 +42,13 @@ public class TestCase {
         ama bir yerde hata var diyor oscar onun icin olmuyor
          */
 
+        System.out.println("I am automating : " + amazonHomepage.getName());
+
+        /*
+        private static String browserType; // hatamiz da bu
+        bunu en basta Browser class da static olarak tanimlalmamis iz
+         */
+
 
     }
 }

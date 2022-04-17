@@ -52,9 +52,9 @@ public class Person {
     }
 
     public Person(String name, int age, char gender) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+      setName(name);
+        setAge(age);
+        setGender(gender);
     }
 
     public void eat(){

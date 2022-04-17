@@ -21,8 +21,27 @@ public class TestCase {
 
         // can use amazonHomepage object to reach ProductPage  shopFor method? == > no I can not
         ProductPage productPage = new ProductPage("Chrome" , 2);
-
         productPage.shopFor(amazonHomepage.product); // parantez icine [amazonHomepage.shopFor("Samsung PC");] cagirdik yani
+
+        // navigate to Cart: I can use both objects
+       // productPage.navigateTo("Cart"); //we can use as well child class object
+        amazonHomepage.navigateTo("Cart");
+
+        CartPage cartPage = new CartPage("Chrome", " Mike Smith");
+        cartPage.fillInfo();
+        cartPage.payFor(3456789098765l);
+
+        cartPage.setNmae("Firefox"); //There is already an open browser : Chrome
+
+        cartPage.closeBrowser();
+
+        cartPage.setNmae("Firefox");
+        System.out.println("I am automating : " + cartPage.getName());
+        /*
+        normal da suan browser name hepsinde bas tan assaga chrom olmali
+        ama bir yerde hata var diyor oscar onun icin olmuyor
+         */
+
 
     }
 }

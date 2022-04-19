@@ -23,3 +23,7 @@ public class ThrowKeyWord {
 
     }
 }
+/*
+bu yöntem  System.exit(1); yönteminden daha iyi
+cünkü hata oldugu zaman yine exit (1)  yapiyor   ve hata nin hangi satir da oldugunu da söylüyor
+ */

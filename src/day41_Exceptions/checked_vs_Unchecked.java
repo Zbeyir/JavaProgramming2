@@ -25,7 +25,7 @@ public class checked_vs_Unchecked {
         Student student = null;
 
         // System.out.println(student.getName());
-       // student.study();
+        // student.study();
 
         final String str = "Wooden Spoon";
 

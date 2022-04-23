@@ -2,7 +2,7 @@ package day42_Exceptions;
 
 public class ThrowsKeyWord {
 
-    public static void main(String[] args) throws InterruptedException { // (2-) bu hatyi önlemk ve uzun uzun kod yazmamk icin buray bunu yazdik
+    public static void main(String[] args) throws InterruptedException { // (2-) bu hatyi önlemk ve uzun uzun kod yazmamak icin buray bunu yazdik
 // (3-) buraya birden fazla Exception ataya biliriz, kolay yolu yine compiler error yani alti kirmizi olan yerde sag tus ve
 // ilk üsteki method signature a bas
 

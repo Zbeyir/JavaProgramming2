@@ -11,7 +11,7 @@ public class FinallyBlock {
             System.out.println(arr[10]);
             System.out.println("Try Block"); // burasi ni cikti olarak alamiyoruz
         } catch (RuntimeException e) {
-            System.out.println("Catch block"); // burasinai da yanlis yazarsak (parantez in cicni yani ) cikti olarak alamiyoz
+            System.out.println("Catch block"); // burasinai da yanlis yazarsak (yukarida ki parantez in cicni yani ) cikti olarak alamiyoz
             e.printStackTrace();
           //  System.exit(0); // this only time not executed (sadece bu durumda cikti olarak alamayiz)
         }finally {

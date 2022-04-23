@@ -3,7 +3,7 @@ package day42_Exceptions;
 
 class FadyException extends RuntimeException{
 
-    public FadyException(String message) { // burada constructor yapmaz isek assagida sag tarafta aciklam alamayiz
+    public FadyException(String message) { // burada constructor yapmaz isek assagida sag tarafta aciklama alamayiz
         super(message);                     // ve super key word kullanmaliyiz
                                            //custom checked exception
     }

@@ -1,4 +1,4 @@
-package liveReview.Week15;
+package liveReview.Week15.checkedException;
 
 public class CheckedExceptionDemo {
 

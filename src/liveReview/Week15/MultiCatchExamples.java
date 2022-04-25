@@ -5,7 +5,9 @@ public class MultiCatchExamples {
     public static void main(String[] args) {
 
         //
-        String word ="Java";
+        //String word ="Java";  // ister bunu
+
+        String word = null; // ister bunu yazdir
 
         try {
             System.out.println(word.substring(20)); // unchecked exception

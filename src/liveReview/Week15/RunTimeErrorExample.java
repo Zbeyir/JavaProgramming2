@@ -30,6 +30,8 @@ public class RunTimeErrorExample {
 
         System.out.println("We swallowed the exception object");
 
+        scanner.close();
+
         /*
         bu durum da 0 yazin ca elemani yutuyor (swallowed)
          */

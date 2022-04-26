@@ -31,6 +31,5 @@ public class CarShop {
         System.out.println(audi);
         System.out.println(tesla);
 
-
     }
 }

@@ -65,10 +65,15 @@ variable lari kontrol edebilmek icin this. leri set yaptik final olmayanlari
     public void stop(){
         System.out.println("Press the break");
     }
+    /*
+    mesela stop tüm araclar da (same) ayni onun icin buna abstract method yapmaya gerek yok
+     */
 
     public abstract void start();
     /*
     abstract method you don't give the body
+    if implementation unnecessary
+    yani  bilgi yazma önemli degilse herbirinde  detaylar farkli farkli ise o zaman abstract kullaniyoruz
     ((1))
     yukarisini abstract yazmadan hata veriyor
     because; An abstract method can only be created in an abstract class or in an interface

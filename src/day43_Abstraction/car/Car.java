@@ -2,6 +2,7 @@ package day43_Abstraction.car;
 
 //((2)) onun cicn sinifin da abstract olmasi lazim di ve yaptik
 // buradada final kullanamyiz
+// burasi hata veriyor because; An abstract method can only be created in an abstract class or in an interface
 public abstract class Car {
 
     private final String brand, model;
@@ -70,6 +71,7 @@ variable lari kontrol edebilmek icin this. leri set yaptik final olmayanlari
     abstract method you don't give the body
     ((1))
     yukarisini abstract yazmadan hata veriyor
+    because; An abstract method can only be created in an abstract class or in an interface
     yazunca da hata veriyor
     abstract method da detaylar ile ugrasmiyoruz yapip geciyoruz
     access modifier olarak private, static  kullanamayiz

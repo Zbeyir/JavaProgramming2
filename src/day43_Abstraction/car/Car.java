@@ -14,6 +14,8 @@ public abstract class Car {
 Constructor yapana kadar yiúkaridaki final ler hata veriyordu
 variable lari kontrol edebilmek icin this. leri set yaptik final olmayanlari
 
+constructor lari da set yaparsak kontrolu daha kolay
+
  */
     public Car(String brand, String model, String color, int year, double price) {
         this.brand = brand;

@@ -77,5 +77,14 @@ variable lari kontrol edebilmek icin this. leri set yaptik final olmayanlari
     zaten bu ikisi override edilmiyordu hatirlayacagin üzere
      */
 
-
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                '}';
+    }
 }

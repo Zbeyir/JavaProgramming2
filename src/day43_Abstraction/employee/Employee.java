@@ -6,8 +6,13 @@ public abstract class Employee extends Person {
     private String jobTitle;
     private double salary;
 
+    // final i assagida setter yapamiyoruz onun icin kontrolu simdiden constructor un icinde belirledik
     public Employee(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender);
+
+        if (id <= 0){
+            throw new RuntimeException("Invalid id: " + id);
+        }
         this.id = id;
         setJobTitle(jobTitle);
         setSalary(salary);

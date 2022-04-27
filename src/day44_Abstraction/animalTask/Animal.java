@@ -1,5 +1,26 @@
 package day44_Abstraction.animalTask;
 
+
+/*
+class Test {
+    public static void main(String[] args) {
+
+        System.out.println(new Test().getClass());  // class day44_Abstraction.animalTask.Test
+        System.out.println(new Test().getClass().getName());  // day44_Abstraction.animalTask.Test
+        System.out.println(new Test().getClass().getSimpleName()); //
+
+        //bu yönetemi assgida tostring de uyguladik neyin ne oldugunu anlamk icin burada bunu yaoptik
+        //karsilarinada anlamn icin neyin neyi getirdigini yazdim
+
+    }
+}
+*/
+
+
+
+
+
+
 public  abstract class Animal {
 //mesela bu abstract class i final yapamayiz hata verir
     // cünkü abstract ve final birlikte kullanilamaz

@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Dog extends Animal {
+public final class Dog extends Animal implements Palyable {
 
 
     public Dog(String name, String size, String breed, String color, char gender, int age) {
@@ -17,6 +17,16 @@ public final class Dog extends Animal {
         System.out.println(getName() + " eats Pizza");
     }
 
+
+    @Override
+    public void play() {
+        System.out.println(getName() + " is playing with ball");
+    }
+
+
+    /* mesela yukarida method u kendimiz manuel olarak override yapsa idik ve access modifier olarak
+     ta protected yada default yapamzik hata verir, cünkü ya ayni ya more visibility olmali
+     */
 
 }
 /*

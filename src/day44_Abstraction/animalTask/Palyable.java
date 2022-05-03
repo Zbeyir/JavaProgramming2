@@ -9,7 +9,7 @@ public interface Palyable { // eger olaki yeni ((interface)) acacagimiza class a
     // yani silede biliriz bak assagida öyle yaziyor zaten
 
 
-    void play(); // abstract by default
+    void play(); // abstract by default && abstract keyWord optional
 
 
     // static boolean isFriendly = true; //==> burarda da static gri burada da silebiliriz,

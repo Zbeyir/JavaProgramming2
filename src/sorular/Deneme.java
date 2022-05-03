@@ -22,8 +22,6 @@ public class Deneme {
             System.out.println(s);
         }
 
-
-
     }
 }
 

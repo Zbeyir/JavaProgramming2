@@ -10,6 +10,9 @@ public interface Palyable { // eger olaki yeni ((interface)) acacagimiza class a
 
 
     void play(); // abstract by default && abstract keyWord optional
+    //Public is the only access modifier that can be used in interface and given by default
+    // bunu implement ettigimiz yerde de public ten baska access modifier yazamayiz
+    // because ; public ten daha (more visible) yok
 
 
     // static boolean isFriendly = true; //==> burarda da static gri burada da silebiliriz,

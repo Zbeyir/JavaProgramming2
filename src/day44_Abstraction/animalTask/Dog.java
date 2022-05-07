@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Dog extends Animal implements Palyable {
+public final class Dog extends Animal implements Playable {
 
 
     public Dog(String name, String size, String breed, String color, char gender, int age) {

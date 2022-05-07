@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Parrot extends Animal implements Palyable, Flyabale{
+public final class Parrot extends Animal implements Playable, Flyabale{
 
     public Parrot(String name, String size, String breed, String color, char gender, int age) {
         super(name, size, breed, color, gender, age);

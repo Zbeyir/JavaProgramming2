@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public interface Palyable { // eger olaki yeni ((interface)) acacagimiza class acarsak;
+public interface Playable { // eger olaki yeni ((interface)) acacagimiza class acarsak;
     // class yerine interface yazinca yine basarmis oluyoruz
 
 

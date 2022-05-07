@@ -1,5 +1,8 @@
 package day45_Abstraction.shape;
 
+/*
+
+
 abstract class dd{
 
 }
@@ -12,6 +15,8 @@ interface kjh{
 interface öl{
 
 }
+
+ */
 public interface Volume {
 
     boolean hasVolume = true;

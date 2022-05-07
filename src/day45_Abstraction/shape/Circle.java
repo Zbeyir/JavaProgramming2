@@ -1,4 +1,5 @@
 package day45_Abstraction.shape;
+/*
 interface xx{
 
 }
@@ -11,9 +12,13 @@ abstract class aa{
 abstract class bb{
 
 }
+*/
+
+
 /*
 herhangi bir sinifa istedigim kadar abstract class yada interface acabilirim (as many as you/I wan)
 ****ama public bir tane olur ve sinif in adi (yani package adi olan )
+ama normalde bir class bir sinif ve bir interface de bir interface
  */
 // benim package adim Circle anladin sen oniii ;)))
 public class Circle extends Shape {  // yani bunu class Circle extends Shape böyle yazip yukaridakilerden birini public yapsam hata verir benim

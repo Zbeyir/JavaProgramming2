@@ -119,7 +119,7 @@ final only way variable checked the condition in constructor
 
     // getClass().getSimpleName() toStirring e  bunu ekeldeik her sinif da kendi adini cagiracak
     // dog da dog, cat de cat
-    // yani basinda abimal yaziyor du o artik yazmiyacak direkt sinif in adi yazacak
+    // yani basinda animal yaziyor du o artik yazmiyacak direkt sinif in adi yazacak
     @Override
     public String toString() {
         return getClass().getSimpleName() +"{" +

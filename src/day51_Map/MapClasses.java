@@ -78,6 +78,9 @@ public class MapClasses {
         // sadece bu 4 'ü nü kullanabiliyoruz (tanimlayabiliyoruz)
         //int ve string (key, value) elemanlari kabul edecek yani double ve boolean kabul etmiyecek
         //cünkü (key, value) ne tanimlanirsa onu kabul edcek put() method da eleman eklerken
+        // EGER DOUBLE VE BOOLEAN KABUL ETMESINI ISTIYORSAK ASSAGIDAKI GIBI TANIMLANMALI
+        Map<Double, Boolean> hashMap1 = new HashMap<>();
+         // ||==>YANI BURAYA NE YAZARSAK ONU KABUL EDECEK
 
 
         String str = null;

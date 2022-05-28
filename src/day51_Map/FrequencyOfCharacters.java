@@ -8,11 +8,13 @@ public class FrequencyOfCharacters {
 
         String str = "bbcccaaaaa";
 
+
         //bca
         //235
         //Collections.frequency()
 
         String[] arr = str.split("");
+
 
       //  Map<String, Integer> result = new HashMap<>(); // ==> eger bu Map 'i secse idik sonuc böyle karisik ti ==> {a=5, b=2, c=3}
 
@@ -20,7 +22,8 @@ public class FrequencyOfCharacters {
 
 
         for (String each : arr) {
-            result.put(each, Collections.frequency(Arrays.asList(arr), each));
+            int frequency = Collections.frequency( Arrays.asList(arr), each);
+            result.put(each, frequency);
         }
 
         System.out.println(result);

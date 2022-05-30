@@ -6,6 +6,8 @@ public class UniqueCharacters {
 
     public static void main(String[] args) {
 
+        //#######....INTERVIEW QUESTION-----#######
+
         String str = "aabcccdeeeef";
 
         String[] arr = str.split("");
@@ -36,6 +38,7 @@ public class UniqueCharacters {
 }
 
 /*
+#######....INTERVIEW QUESTION-----#######
 Warmup tasks:
 	1. Write a program that can find the unique characters from a String
 

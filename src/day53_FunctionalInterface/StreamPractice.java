@@ -95,10 +95,62 @@ public class StreamPractice {
          */
 
 
+        System.out.println("-----------------------------------------");
+
+        List<Integer> list6 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        System.out.println(list6);
+        List<Integer> evens = list6.stream().filter( p -> p %2==0 ).collect(Collectors.toList());
+        System.out.println(evens);
 
 
+        System.out.println("-----------------------------------------");
+
+        List<String> names = new ArrayList<>(Arrays.asList("Java","JAVA","jAvA","pYTHON","Ruby"));
+
+        long countJava = names.stream().filter( p -> p.equalsIgnoreCase("java") ).count();
+
+        System.out.println(countJava);
+
+        /*
+        count() ve filter() method beraber kullanilir genelde
+        yukarida icinde ne kadar "java" yaziyor diye baktik
+         */
 
 
+        System.out.println("-----------------------------------------");
+        // forEach() method
+        // burada filter() method da ki leri yazdirdik
+        names.stream().filter( p -> p.equalsIgnoreCase("java") ).forEach( p -> System.out.println(p) );
+
+
+        System.out.println("-----------------------------------------");
+        // allMatch() method ==> mesela hepsinin even number mi ydiye bakiyoruz
+
+        List<Integer> list7 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+
+        boolean r1 = list7.stream().allMatch( p -> p%2==0 );
+
+        System.out.println(r1);
+
+        System.out.println("-----------------------------------------");
+        // anyMatch() method  ==> mesela herhangi biri even number sa true
+
+        boolean r2 = list7.stream().anyMatch( p -> p%2==0 );
+        System.out.println(r2); // true
+
+        boolean r3 = list7.stream().anyMatch(p -> p>20);
+        System.out.println(r3); // false
+
+        List<Integer> list8 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,70,8,9,10));
+
+        boolean r4 = list8.stream().anyMatch(p -> p>20);
+        System.out.println(r4);  // true
+
+        System.out.println("-----------------------------------------");
+        //noneMatch() method  ==> mesela herhangi biri 3 'e tam bölünüyorsa false
+
+        boolean r5 = list8.stream().noneMatch(p -> p%3==0);
+        System.out.println(r5); // false
 
 
     }
